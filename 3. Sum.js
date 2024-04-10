@@ -1,3 +1,6 @@
+// Find the sum of all the numbers in a string which is divisible by 3 and also find the last
+such number. Example "The best 6 of 8 will get 9 points", sum = 12, last=9.
+
 function findDivisibleByThree(text) {
   let sumDivisible = 0;
   let lastDivisible = null;
