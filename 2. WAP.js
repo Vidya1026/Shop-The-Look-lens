@@ -1,3 +1,7 @@
+// For the given array WAP to divide each number of the array by the
+next number. Divide the last number by first number of array. Provide proper exceptional
+handling for 0.
+
 function divideArrayElements(arr) {
   const results = [];
   for (let i = 0; i < arr.length - 1; i++) {
